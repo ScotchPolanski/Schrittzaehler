@@ -60,7 +60,7 @@ public class SchrittzählerKW09 {
         
         if(eingabe == 3)
         {
-            System.exit(0);
+            System.exit(0);             // "=== Schrittzähler ===" wird trotzdem angezeigt (ignorieren, bzw. falls das nicht kommen soll Line 33 überarbeiten
         }
         
         if(eingabe < 1 || eingabe > 3)
