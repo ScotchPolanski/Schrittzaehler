@@ -52,7 +52,6 @@ public class SchrittzählerKW09 {
         for(int i = 0; i<=56; i++)
         {
             stepcounter.incrementSteps();
-            i++;
         }
         System.out.println(stepcounter.toString());
         drueckeEnter();
